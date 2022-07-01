@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: hsl(170, 100%, 26%);
+  --headline: hsl(210, 11%, 15%);
+  --paragraph: hsl(210, 9%, 31%);
+
+  --brand-beige: hsl(39, 100%, 97%);
+  --brand-green: hsl(148, 23%, 89%);
+
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  font-family: 'DM Sans';
+  font-size: 1.6rem;
+
+  text-align: center;
+}
+
+body h1 {
+  font-size: 3.4rem;
+  color: var(--headline);
+  line-height: 130%;
+  margin-bottom: 2.4rem;
+}
+
+body p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: var(--paragraph);
+  margin-bottom: 3.2rem;
+}
+
+header img {
+  width: 26.4rem;
+  object-position: 0 2rem;
+}
