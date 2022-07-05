@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+.d-flex {
+  display: flex;
+
+}
+
+.poema {
+  margin-left: 15%;
+}
+
+.foto {
+  margin-left: 3%;
+  margin-top: 7%;
+}
+
