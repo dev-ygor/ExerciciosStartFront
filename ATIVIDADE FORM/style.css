@@ -1,0 +1,44 @@
+
+body {
+  background-color: #f0f8ff;
+  padding: 2%;
+  font-family: sans-serif;
+  font-size: 1em;
+  color: #59429d;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+fieldset {
+  border: 1;
+  padding: 3%;
+}
+
+
+section {
+  width: 70%;
+}
+
+img {
+
+  display: flex;
+  border-radius: 130%;
+  border-left: 100%;
+  width: 15%;
+
+}
+
+.grupo {
+  border-radius: 1.5%;
+
+}
+
+button {
+  justify-content: space-evenly;
+}
+
+footer {
+border-top: 50%;
+}

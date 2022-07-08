@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Formulário</title>
+</head>
+<body>
+
+  <header>
+    <div class="titulo">
+      <h1>Cadastrar contatos</h1>
+    </div>
+    <form>
+      <fieldset class="grupo">
+        <label for="nome">Digite seu nome</label>
+        <input type="text" name="nome" id="nome" required>
+
+        <label for="telefone">Digite seu telefone</label>
+        <input type="tel" name="telefone" id="telefone" required>
+
+        <label for="text">Digite o endereço</label>
+        <input type="text" name="endereco" id="endereco">
+
+      </fieldset>
+
+      <fieldset class="grupo">
+
+        <br>
+        <label for="genero">Gênero</label>
+        <br>
+        <input type="radio" name="Masculino" id="masculino">Masculino
+        <br>
+        <input type="radio" name="Feminino" id="feminino">Feminino
+        <br>
+        <input type="radio" name="Outro" id="outro"> Outro
+
+      </fieldset>
+    </form>
+
+    <section class="pessoa">
+      <div class="imagem">
+        <img src="https://images.unsplash.com/photo-1587343848943-d026dc755ef3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="Imagem de uma mulher loira segurando o cabelo sorrindo">
+      </div>
+      <div class="headline">
+        Olá, meu nome <br>
+        daribaldo dagoberto
+      </div>
+
+      <div class="botao salvar">
+        <button type="submit">Salvar</button>
+      </div>
+      <div class="botao cancelar">
+        <button type="reset">Cancelar</button>
+      </div>
+    </section>
+  </header>
+
+  <footer>
+    <div>By Ygor Alves</div>
+  </footer>
+  
+</body>
+</html>
